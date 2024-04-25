@@ -24,4 +24,4 @@ jobs:
           DISCORD_CLIENT_SECRET: ${{ secrets.DISCORD_CLIENT_SECRET }}
           DATABASE_URL: ${{ secrets.DATABASE_URL}}
           NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
-          NODE_ENV: ${{ secrets.NODE_ENV }}
+          NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
